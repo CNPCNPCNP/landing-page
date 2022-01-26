@@ -4,6 +4,7 @@
     align-items: center;
     background-color: #1F2937;
     color: #E5E7EB;
+    padding-bottom: 32px;
 }
 
 .header-logo {
@@ -35,6 +36,7 @@
     justify-content: space-between;
     align-items: flex-start;
     background-color: #1F2937;
+    padding-bottom: 48px;
 }
 
 .left-title {
@@ -62,4 +64,45 @@
 .image {
     padding-right: 80px;
     flex-shrink: 0;
+}
+
+.main-text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 32px;
+}
+
+.main-container{
+    display: flex;
+    padding: 32px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 72px;
+}
+
+.info{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.quote {
+    background: #E5E7EB;
+    text-align: center;
+    padding-left: 64px;
+    padding-right: 64px;
+    color; #1F2937
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bolder;
+    color: #1f2937;
 }
