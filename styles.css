@@ -22,11 +22,44 @@
     margin: 16px;
     gap: 16px;
     padding-right: 64px;
-    
 }
 
 .header-link {
     font-size: 18px;
     text-decoration: none;
     color: #E5E7EB
+}
+
+.title-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #1F2937;
+}
+
+.left-title {
+    padding-left: 80px;
+    justify-content: space-between;
+}
+
+.title-heading {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.title-paragraph {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.title-button {
+    border-radius: 14px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+.image {
+    padding-right: 80px;
+    flex-shrink: 0;
 }
